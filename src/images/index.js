@@ -1,0 +1,1 @@
+export {default as Porsche} from './porsche.jpg'

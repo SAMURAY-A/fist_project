@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background: pink url(https://websitedemos.net/fashion-lifestyle-02/wp-content/uploads/sites/427/2020/01/model-homebanner.jpg) no-repeat fixed center/cover;
+}
+
+@layer utilities{
+  .container{
+    @apply px-40 max-lg:px-10 max-md:px-5;
+  }
+}
