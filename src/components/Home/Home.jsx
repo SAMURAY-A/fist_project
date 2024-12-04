@@ -2,6 +2,8 @@ import React from 'react';
 import About from './About';
 import Section from './Section';
 import Informetion from './Informetion';
+import Brends from './brends';
+import End from './end';
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
     <About />
     <Section/>
     <Informetion/>
+    <Brends/>
+    <End/>
   </>
     
   );
