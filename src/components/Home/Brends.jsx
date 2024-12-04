@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Brands() {
   return (
     <div className="w-full bg-white py-6">
